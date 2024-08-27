@@ -4098,7 +4098,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 004a89e1-83eb-41f1-b1a4-b5d3af1b26e7)
-    (property "Reference" "#PWR091" (at 351.79 53.34 0)
+    (property "Reference" "#PWR075" (at 351.79 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 45.085 0)
@@ -4114,7 +4114,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -4153,7 +4153,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04141edd-4cbc-42cc-bcdd-8b8e6cc05724)
-    (property "Reference" "#PWR059" (at 203.2 114.3 0)
+    (property "Reference" "#PWR043" (at 203.2 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 106.045 0)
@@ -4169,7 +4169,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -4178,7 +4178,7 @@
   (symbol (lib_id "Device:C") (at 104.14 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 043f4198-4315-4968-872d-dd86a69fb097)
-    (property "Reference" "C9" (at 107.95 57.15 0)
+    (property "Reference" "C8" (at 107.95 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 59.69 0)
@@ -4195,7 +4195,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4204,7 +4204,7 @@
   (symbol (lib_id "Device:C") (at 302.26 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06b510b1-58d1-4752-9b55-f52b3cc7532e)
-    (property "Reference" "C36" (at 306.07 148.59 0)
+    (property "Reference" "C35" (at 306.07 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 151.13 0)
@@ -4221,7 +4221,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C36") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -4230,7 +4230,7 @@
   (symbol (lib_id "Device:C") (at 252.73 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0896f7da-0f4f-4efa-95f3-7e94fbfee0d4)
-    (property "Reference" "C23" (at 256.54 26.67 0)
+    (property "Reference" "C25" (at 256.54 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 29.21 0)
@@ -4247,7 +4247,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C23") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -4256,7 +4256,7 @@
   (symbol (lib_id "Device:C") (at 104.14 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09336627-4224-4965-b4bf-775a3c0df93a)
-    (property "Reference" "C8" (at 107.95 26.67 0)
+    (property "Reference" "C7" (at 107.95 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 29.21 0)
@@ -4273,7 +4273,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4282,7 +4282,7 @@
   (symbol (lib_id "power:GND") (at 54.61 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093b009b-4555-476e-a57a-f29bfd140b19)
-    (property "Reference" "#PWR012" (at 54.61 134.62 0)
+    (property "Reference" "#PWR08" (at 54.61 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 132.715 0)
@@ -4298,7 +4298,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4307,7 +4307,7 @@
   (symbol (lib_id "power:+5V") (at 111.76 222.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c025f10-126e-4969-bebf-da0115d7b936)
-    (property "Reference" "#PWR02" (at 111.76 226.695 0)
+    (property "Reference" "#PWR087" (at 111.76 226.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 111.76 217.805 0)
@@ -4323,7 +4323,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -4332,7 +4332,7 @@
   (symbol (lib_id "power:GND") (at 252.73 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c8682d8-30be-4eef-9be3-0950686e83be)
-    (property "Reference" "#PWR051" (at 252.73 73.66 0)
+    (property "Reference" "#PWR052" (at 252.73 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 71.755 0)
@@ -4348,7 +4348,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4357,7 +4357,7 @@
   (symbol (lib_id "power:GND") (at 203.2 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d37407a-146e-43ab-80ee-c2e8a1762304)
-    (property "Reference" "#PWR050" (at 203.2 73.66 0)
+    (property "Reference" "#PWR040" (at 203.2 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 71.755 0)
@@ -4373,7 +4373,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4382,7 +4382,7 @@
   (symbol (lib_id "Device:C") (at 54.61 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d77322f-5776-4337-9f74-29d946c9e84e)
-    (property "Reference" "C7" (at 58.42 118.11 0)
+    (property "Reference" "C4" (at 58.42 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 120.65 0)
@@ -4399,7 +4399,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4408,7 +4408,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 24.13 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e691151-cbdb-4d84-b1ea-ebed96fcf0a5)
-    (property "Reference" "D9" (at 26.67 140.97 0)
+    (property "Reference" "D5" (at 26.67 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 25.4 144.78 0)
@@ -4429,7 +4429,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D9") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -4438,7 +4438,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 271.78 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e9fe62f-a259-4f80-9109-c71ed48845c2)
-    (property "Reference" "D33" (at 274.32 140.97 0)
+    (property "Reference" "D35" (at 274.32 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 273.05 144.78 0)
@@ -4459,7 +4459,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D33") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -4468,7 +4468,7 @@
   (symbol (lib_id "power:GND") (at 134.62 273.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0eab4a74-7954-4f64-85ce-69ff69c316ea)
-    (property "Reference" "#PWR04" (at 134.62 279.4 0)
+    (property "Reference" "#PWR088" (at 134.62 279.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 278.13 0)
@@ -4484,7 +4484,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -4493,7 +4493,7 @@
   (symbol (lib_id "power:+5V") (at 383.54 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1387af7c-4f2d-4437-957c-8db03b211b30)
-    (property "Reference" "#PWR088" (at 383.54 212.09 0)
+    (property "Reference" "#PWR0100" (at 383.54 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 383.54 203.2 0)
@@ -4509,7 +4509,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -4573,7 +4573,7 @@
   (symbol (lib_id "power:GND") (at 153.67 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1665aacc-556e-4771-8e76-29cc1d7ddcb3)
-    (property "Reference" "#PWR034" (at 153.67 104.14 0)
+    (property "Reference" "#PWR030" (at 153.67 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 102.235 0)
@@ -4589,7 +4589,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4598,7 +4598,7 @@
   (symbol (lib_id "Device:R_US") (at 273.05 222.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1684cb1e-f8f0-42ab-8458-fe91bcad93b0)
-    (property "Reference" "R4" (at 273.05 215.9 90)
+    (property "Reference" "R5" (at 273.05 215.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "301K" (at 273.05 218.44 90)
@@ -4615,7 +4615,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4654,7 +4654,7 @@
   (symbol (lib_id "Device:C") (at 153.67 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17b86023-b1ff-4102-812e-6b9467221e48)
-    (property "Reference" "C17" (at 157.48 57.15 0)
+    (property "Reference" "C14" (at 157.48 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 59.69 0)
@@ -4671,7 +4671,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C17") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4680,7 +4680,7 @@
   (symbol (lib_id "Device:C") (at 252.73 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 181cf296-5add-4911-891c-41446c9daf3b)
-    (property "Reference" "C29" (at 256.54 87.63 0)
+    (property "Reference" "C27" (at 256.54 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 90.17 0)
@@ -4697,7 +4697,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C29") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -4756,7 +4756,7 @@
   (symbol (lib_id "power:GND") (at 203.2 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18efc2d1-66a0-4a39-bdab-938e305e2e25)
-    (property "Reference" "#PWR056" (at 203.2 104.14 0)
+    (property "Reference" "#PWR042" (at 203.2 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 102.235 0)
@@ -4772,7 +4772,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4781,7 +4781,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bec729d-c57e-40f6-ace6-1e1b40fffa7e)
-    (property "Reference" "#PWR011" (at 54.61 114.3 0)
+    (property "Reference" "#PWR07" (at 54.61 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 106.045 0)
@@ -4797,7 +4797,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4806,7 +4806,7 @@
   (symbol (lib_id "Device:C") (at 54.61 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d7ae08d-9871-4895-bb6e-c651a8c87da7)
-    (property "Reference" "C6" (at 58.42 87.63 0)
+    (property "Reference" "C3" (at 58.42 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 90.17 0)
@@ -4823,7 +4823,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4832,7 +4832,7 @@
   (symbol (lib_id "power:GND") (at 153.67 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d842d20-8dfe-470f-8778-d5003c43b30f)
-    (property "Reference" "#PWR032" (at 153.67 73.66 0)
+    (property "Reference" "#PWR028" (at 153.67 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 71.755 0)
@@ -4848,7 +4848,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4857,7 +4857,7 @@
   (symbol (lib_id "Device:R_US") (at 266.7 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20a5b83f-1c56-4572-827d-1f70fa55d14b)
-    (property "Reference" "R5" (at 269.24 229.87 0)
+    (property "Reference" "R4" (at 269.24 229.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "169K" (at 269.24 232.41 0)
@@ -4874,7 +4874,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4883,7 +4883,7 @@
   (symbol (lib_id "Device:C") (at 203.2 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20f5733a-0778-4b6d-b853-f57803831367)
-    (property "Reference" "C37" (at 207.01 179.07 0)
+    (property "Reference" "C24" (at 207.01 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 181.61 0)
@@ -4900,7 +4900,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C37") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -4909,7 +4909,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21cb0650-3c28-4079-9cb0-179511026e2e)
-    (property "Reference" "#PWR089" (at 351.79 22.86 0)
+    (property "Reference" "#PWR073" (at 351.79 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 14.605 0)
@@ -4925,7 +4925,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -4960,7 +4960,7 @@
   (symbol (lib_id "Device:C") (at 351.79 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24d6e3fb-a03d-47ea-b086-a71a1fff5fff)
-    (property "Reference" "C45" (at 355.6 179.07 0)
+    (property "Reference" "C42" (at 355.6 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 181.61 0)
@@ -4977,7 +4977,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C45") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -4986,7 +4986,7 @@
   (symbol (lib_id "Device:C") (at 351.79 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25838dd1-5dbb-4c20-8f99-4b69a31c3800)
-    (property "Reference" "C42" (at 355.6 87.63 0)
+    (property "Reference" "C39" (at 355.6 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 90.17 0)
@@ -5003,7 +5003,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C42") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -5042,7 +5042,7 @@
   (symbol (lib_id "power:GND") (at 351.79 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27a6ceae-c28b-4f2f-9099-fe7463d998ff)
-    (property "Reference" "#PWR094" (at 351.79 104.14 0)
+    (property "Reference" "#PWR078" (at 351.79 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 102.235 0)
@@ -5058,7 +5058,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -5067,7 +5067,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28a90f00-2921-45f9-b922-01c3db0dc08c)
-    (property "Reference" "#PWR07" (at 54.61 53.34 0)
+    (property "Reference" "#PWR03" (at 54.61 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 45.085 0)
@@ -5083,7 +5083,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5184,7 +5184,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 172.72 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f94100b-4bb7-45f3-86f4-c0cd994f341f)
-    (property "Reference" "D34" (at 175.26 171.45 0)
+    (property "Reference" "D24" (at 175.26 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 173.99 175.26 0)
@@ -5205,7 +5205,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D34") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -5214,7 +5214,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 271.78 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fd26b20-256f-4ff6-af07-561426dd4878)
-    (property "Reference" "D30" (at 274.32 110.49 0)
+    (property "Reference" "D34" (at 274.32 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 273.05 114.3 0)
@@ -5235,7 +5235,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D30") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -5244,7 +5244,7 @@
   (symbol (lib_id "power:+5V") (at 294.64 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30df62b7-ff2c-48fe-9e6b-fc0a42bbf887)
-    (property "Reference" "#PWR084" (at 294.64 223.52 0)
+    (property "Reference" "#PWR097" (at 294.64 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 294.64 214.63 0)
@@ -5260,7 +5260,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -5269,7 +5269,7 @@
   (symbol (lib_id "power:GND") (at 153.67 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33c4aa5d-746d-4f54-8964-88920a28cfd4)
-    (property "Reference" "#PWR030" (at 153.67 43.18 0)
+    (property "Reference" "#PWR026" (at 153.67 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 41.275 0)
@@ -5285,7 +5285,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5294,7 +5294,7 @@
   (symbol (lib_id "power:GND") (at 54.61 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3420ea46-8000-4576-b8d3-d7a893964b6f)
-    (property "Reference" "#PWR022" (at 54.61 165.1 0)
+    (property "Reference" "#PWR010" (at 54.61 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 163.195 0)
@@ -5310,7 +5310,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5319,7 +5319,7 @@
   (symbol (lib_id "Device:C") (at 36.83 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 352f599e-fae5-4d47-80f5-55dc67cd3371)
-    (property "Reference" "C2" (at 40.64 232.41 0)
+    (property "Reference" "C44" (at 40.64 232.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 40.64 234.95 0)
@@ -5336,7 +5336,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C2") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -5345,7 +5345,7 @@
   (symbol (lib_id "power:GND") (at 302.26 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 368d2b46-fe81-480b-9dab-2fb142063118)
-    (property "Reference" "#PWR064" (at 302.26 134.62 0)
+    (property "Reference" "#PWR068" (at 302.26 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 132.715 0)
@@ -5361,7 +5361,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -5400,7 +5400,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 371810d0-9e38-4608-8224-cf8055f03ed3)
-    (property "Reference" "#PWR05" (at 54.61 22.86 0)
+    (property "Reference" "#PWR01" (at 54.61 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 14.605 0)
@@ -5416,7 +5416,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5425,7 +5425,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 271.78 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 371af8ab-8621-4421-8b33-e1d08d662f13)
-    (property "Reference" "D27" (at 274.32 80.01 0)
+    (property "Reference" "D33" (at 274.32 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 273.05 83.82 0)
@@ -5446,7 +5446,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D27") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -5455,7 +5455,7 @@
   (symbol (lib_id "Device:C") (at 153.67 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37345075-a986-443f-b7cf-8644c8eba159)
-    (property "Reference" "C16" (at 157.48 26.67 0)
+    (property "Reference" "C13" (at 157.48 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 29.21 0)
@@ -5472,7 +5472,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C16") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5562,7 +5562,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 271.78 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ab27ab4-33d7-4b22-927f-db39902596db)
-    (property "Reference" "D21" (at 274.32 19.05 0)
+    (property "Reference" "D31" (at 274.32 19.05 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 273.05 22.86 0)
@@ -5583,7 +5583,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D21") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -5617,7 +5617,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4198c925-1067-441d-be21-d2833d0b4f53)
-    (property "Reference" "#PWR099" (at 351.79 175.26 0)
+    (property "Reference" "#PWR083" (at 351.79 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 167.005 0)
@@ -5633,7 +5633,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5642,7 +5642,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 24.13 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43956077-db9d-42ae-b8ca-92a97c7c8791)
-    (property "Reference" "D10" (at 26.67 171.45 0)
+    (property "Reference" "D6" (at 26.67 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 25.4 175.26 0)
@@ -5663,7 +5663,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D10") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -5672,7 +5672,7 @@
   (symbol (lib_id "power:GND") (at 29.21 259.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 445d9166-562e-4396-abaf-70e315773cad)
-    (property "Reference" "#PWR03" (at 29.21 265.43 0)
+    (property "Reference" "#PWR086" (at 29.21 265.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 264.16 0)
@@ -5688,7 +5688,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -5697,7 +5697,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 457bde0d-6e93-40f4-8821-123834c07efe)
-    (property "Reference" "#PWR01" (at 29.21 227.33 0)
+    (property "Reference" "#PWR085" (at 29.21 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 29.21 218.44 0)
@@ -5713,7 +5713,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -5722,7 +5722,7 @@
   (symbol (lib_id "Device:C") (at 351.79 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46c36c1e-ee8a-4db2-a248-dc3110d15491)
-    (property "Reference" "C40" (at 355.6 26.67 0)
+    (property "Reference" "C37" (at 355.6 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 29.21 0)
@@ -5739,7 +5739,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C40") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -5748,7 +5748,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 491579d9-2278-48d5-93d1-6e71c4295ed2)
-    (property "Reference" "#PWR09" (at 54.61 83.82 0)
+    (property "Reference" "#PWR05" (at 54.61 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 75.565 0)
@@ -5764,7 +5764,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5773,7 +5773,7 @@
   (symbol (lib_id "power:+12V") (at 322.58 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49a3cccc-6708-46cf-95c1-58633254b522)
-    (property "Reference" "#PWR086" (at 322.58 212.09 0)
+    (property "Reference" "#PWR098" (at 322.58 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 322.58 203.2 0)
@@ -5789,7 +5789,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -5798,7 +5798,7 @@
   (symbol (lib_id "power:GND") (at 302.26 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49b57ec9-b404-4793-9939-2416a65a3fa6)
-    (property "Reference" "#PWR058" (at 302.26 104.14 0)
+    (property "Reference" "#PWR066" (at 302.26 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 102.235 0)
@@ -5814,7 +5814,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -5823,7 +5823,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a08ed06-1808-45c4-977b-c1fa56ddcbbc)
-    (property "Reference" "#PWR095" (at 351.79 114.3 0)
+    (property "Reference" "#PWR079" (at 351.79 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 106.045 0)
@@ -5839,7 +5839,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -5848,7 +5848,7 @@
   (symbol (lib_id "Device:C") (at 203.2 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a53f0e6-cbb1-433f-9b7a-472046fbd59e)
-    (property "Reference" "C25" (at 207.01 57.15 0)
+    (property "Reference" "C20" (at 207.01 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 59.69 0)
@@ -5865,7 +5865,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C25") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -5904,7 +5904,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b858a4d-219f-4bb1-9bc3-106fc53164aa)
-    (property "Reference" "#PWR066" (at 252.73 144.78 0)
+    (property "Reference" "#PWR057" (at 252.73 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 136.525 0)
@@ -5920,7 +5920,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -5929,7 +5929,7 @@
   (symbol (lib_id "power:GND") (at 161.29 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52b472fb-dcc4-476b-bb55-8320d1906c4d)
-    (property "Reference" "#PWR077" (at 161.29 259.08 0)
+    (property "Reference" "#PWR090" (at 161.29 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 257.81 0)
@@ -5945,7 +5945,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -5984,7 +5984,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554c1b90-f74e-4876-800a-509e19482df5)
-    (property "Reference" "#PWR054" (at 252.73 83.82 0)
+    (property "Reference" "#PWR053" (at 252.73 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 75.565 0)
@@ -6000,7 +6000,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -6035,7 +6035,7 @@
   (symbol (lib_id "power:GND") (at 302.26 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5640cb95-b555-4ad2-8308-001baf1c412f)
-    (property "Reference" "#PWR076" (at 302.26 195.58 0)
+    (property "Reference" "#PWR072" (at 302.26 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 193.675 0)
@@ -6051,7 +6051,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -6060,7 +6060,7 @@
   (symbol (lib_id "Device:C") (at 351.79 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5720083c-d591-41c7-b784-0284e0515767)
-    (property "Reference" "C43" (at 355.6 118.11 0)
+    (property "Reference" "C40" (at 355.6 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 120.65 0)
@@ -6077,7 +6077,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C43") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -6086,7 +6086,7 @@
   (symbol (lib_id "power:GND") (at 252.73 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59acbe51-17bc-45e1-a70c-91a7a87a6406)
-    (property "Reference" "#PWR057" (at 252.73 104.14 0)
+    (property "Reference" "#PWR054" (at 252.73 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 102.235 0)
@@ -6102,7 +6102,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -6136,7 +6136,7 @@
   (symbol (lib_id "power:GND") (at 351.79 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b4258fa-424b-4b23-ac86-7bbcfeae89cf)
-    (property "Reference" "#PWR092" (at 351.79 73.66 0)
+    (property "Reference" "#PWR076" (at 351.79 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 71.755 0)
@@ -6152,7 +6152,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -6161,7 +6161,7 @@
   (symbol (lib_id "power:GND") (at 322.58 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c5c462c-2de8-477c-bda7-9e069218a264)
-    (property "Reference" "#PWR087" (at 322.58 248.92 0)
+    (property "Reference" "#PWR099" (at 322.58 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 247.65 0)
@@ -6177,7 +6177,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -6211,7 +6211,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60011005-69f2-4be6-9e2b-02b9762134e1)
-    (property "Reference" "#PWR060" (at 252.73 114.3 0)
+    (property "Reference" "#PWR055" (at 252.73 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 106.045 0)
@@ -6227,7 +6227,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -6296,7 +6296,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65966edd-4b56-4ab1-b32a-5c6a02f8f4b5)
-    (property "Reference" "D20" (at 224.79 19.05 0)
+    (property "Reference" "D25" (at 224.79 19.05 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 22.86 0)
@@ -6317,7 +6317,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D20") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -6326,7 +6326,7 @@
   (symbol (lib_id "Device:C") (at 351.79 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 671dad6c-4ed3-48c9-b356-3f50e73712ca)
-    (property "Reference" "C44" (at 355.6 148.59 0)
+    (property "Reference" "C41" (at 355.6 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 151.13 0)
@@ -6343,7 +6343,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C44") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -6352,7 +6352,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 271.78 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69cfdc7c-8b0f-4185-aa6a-a14ddb9713ef)
-    (property "Reference" "D24" (at 274.32 49.53 0)
+    (property "Reference" "D32" (at 274.32 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 273.05 53.34 0)
@@ -6373,7 +6373,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D24") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -6382,7 +6382,7 @@
   (symbol (lib_id "Device:C") (at 252.73 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b0e4d75-e73b-46ea-bb7b-443c50fdb0cd)
-    (property "Reference" "C38" (at 256.54 179.07 0)
+    (property "Reference" "C30" (at 256.54 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 181.61 0)
@@ -6399,7 +6399,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C38") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -6408,7 +6408,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 73.66 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bad5c77-aa10-405a-aa5f-6cef40dc366a)
-    (property "Reference" "D5" (at 76.2 19.05 0)
+    (property "Reference" "D7" (at 76.2 19.05 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 74.93 22.86 0)
@@ -6429,7 +6429,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -6438,7 +6438,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d57acbd-4c57-4637-a2e3-c87ce51d049a)
-    (property "Reference" "#PWR065" (at 203.2 144.78 0)
+    (property "Reference" "#PWR045" (at 203.2 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 136.525 0)
@@ -6454,7 +6454,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -6463,7 +6463,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d65be39-90c1-407e-9d22-adb270b0bfab)
-    (property "Reference" "#PWR067" (at 302.26 144.78 0)
+    (property "Reference" "#PWR069" (at 302.26 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 136.525 0)
@@ -6479,7 +6479,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -6518,7 +6518,7 @@
   (symbol (lib_id "power:GND") (at 185.42 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ffc379c-b563-4980-8e71-51f16072609b)
-    (property "Reference" "#PWR078" (at 185.42 248.92 0)
+    (property "Reference" "#PWR092" (at 185.42 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 247.65 0)
@@ -6534,7 +6534,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -6543,7 +6543,7 @@
   (symbol (lib_id "Device:C") (at 302.26 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71ef1af4-9c61-4551-b10d-18bb439d6b2e)
-    (property "Reference" "C24" (at 306.07 26.67 0)
+    (property "Reference" "C31" (at 306.07 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 29.21 0)
@@ -6560,7 +6560,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C24") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -6595,7 +6595,7 @@
   (symbol (lib_id "Device:C") (at 203.2 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 738f3f46-d0cd-4f80-9d06-8a244429d984)
-    (property "Reference" "C28" (at 207.01 87.63 0)
+    (property "Reference" "C21" (at 207.01 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 90.17 0)
@@ -6612,7 +6612,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C28") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -6621,7 +6621,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7521b89b-e9ba-4fc4-835d-3289953ade90)
-    (property "Reference" "#PWR041" (at 203.2 22.86 0)
+    (property "Reference" "#PWR037" (at 203.2 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 14.605 0)
@@ -6637,7 +6637,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -6646,7 +6646,7 @@
   (symbol (lib_id "Device:C") (at 252.73 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7603d31a-5cd7-4235-adc4-6802d245ba2b)
-    (property "Reference" "C35" (at 256.54 148.59 0)
+    (property "Reference" "C29" (at 256.54 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 151.13 0)
@@ -6663,7 +6663,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C35") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -6672,7 +6672,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77b9034e-2d25-484d-984c-8672a8251362)
-    (property "Reference" "#PWR031" (at 153.67 53.34 0)
+    (property "Reference" "#PWR027" (at 153.67 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 45.085 0)
@@ -6688,7 +6688,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6697,7 +6697,7 @@
   (symbol (lib_id "Device:C") (at 29.21 233.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7976773f-1bbc-43f3-877d-1a982a2381c5)
-    (property "Reference" "C1" (at 25.4 232.41 0)
+    (property "Reference" "C43" (at 25.4 232.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 25.4 234.95 0)
@@ -6714,7 +6714,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C1") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -6723,7 +6723,7 @@
   (symbol (lib_id "power:GND") (at 266.7 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ad92404-a4e1-4630-a33f-4a3f5286b8bd)
-    (property "Reference" "#PWR085" (at 266.7 243.84 0)
+    (property "Reference" "#PWR096" (at 266.7 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 242.57 0)
@@ -6739,7 +6739,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -6748,7 +6748,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bd035d9-4808-458c-b134-32d9bf51e439)
-    (property "Reference" "#PWR071" (at 203.2 175.26 0)
+    (property "Reference" "#PWR047" (at 203.2 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 167.005 0)
@@ -6764,7 +6764,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -6798,7 +6798,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ed8af2b-4875-416c-a361-ad09ef30e001)
-    (property "Reference" "#PWR073" (at 302.26 175.26 0)
+    (property "Reference" "#PWR071" (at 302.26 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 167.005 0)
@@ -6814,7 +6814,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -6823,7 +6823,7 @@
   (symbol (lib_id "power:GND") (at 104.14 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f9d6fef-afc4-4a4d-a434-8f942ee34201)
-    (property "Reference" "#PWR026" (at 104.14 165.1 0)
+    (property "Reference" "#PWR022" (at 104.14 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 163.195 0)
@@ -6839,7 +6839,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -6848,7 +6848,7 @@
   (symbol (lib_id "power:GND") (at 231.14 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 859fdd98-082e-49f5-9440-3cea1d898feb)
-    (property "Reference" "#PWR082" (at 231.14 234.95 0)
+    (property "Reference" "#PWR094" (at 231.14 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 233.68 0)
@@ -6864,7 +6864,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -6873,7 +6873,7 @@
   (symbol (lib_id "Device:C") (at 54.61 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85f89aa5-c481-4ef2-ae3f-835684d13ab4)
-    (property "Reference" "C5" (at 58.42 57.15 0)
+    (property "Reference" "C2" (at 58.42 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 59.69 0)
@@ -6890,7 +6890,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -6899,7 +6899,7 @@
   (symbol (lib_id "power:GND") (at 203.2 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86a160db-f9c4-4101-bd21-554a202668ee)
-    (property "Reference" "#PWR044" (at 203.2 43.18 0)
+    (property "Reference" "#PWR038" (at 203.2 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 41.275 0)
@@ -6915,7 +6915,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -6924,7 +6924,7 @@
   (symbol (lib_id "Device:C") (at 153.67 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86b5e960-f069-4f67-81da-b9b6675a5c67)
-    (property "Reference" "C21" (at 157.48 179.07 0)
+    (property "Reference" "C18" (at 157.48 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 181.61 0)
@@ -6941,7 +6941,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C21") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -6950,7 +6950,7 @@
   (symbol (lib_id "Device:C") (at 302.26 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86d7b394-eaeb-4348-858b-0f3f13003f5d)
-    (property "Reference" "C27" (at 306.07 57.15 0)
+    (property "Reference" "C32" (at 306.07 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 59.69 0)
@@ -6967,7 +6967,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C27") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -7006,7 +7006,7 @@
   (symbol (lib_id "Device:C") (at 252.73 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87ca98a7-0f1a-429d-9706-87ea7ac2f523)
-    (property "Reference" "C32" (at 256.54 118.11 0)
+    (property "Reference" "C28" (at 256.54 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 120.65 0)
@@ -7023,7 +7023,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C32") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -7032,7 +7032,7 @@
   (symbol (lib_id "power:GND") (at 104.14 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88292109-84f3-43cb-9a0a-81df06bd1280)
-    (property "Reference" "#PWR028" (at 104.14 195.58 0)
+    (property "Reference" "#PWR024" (at 104.14 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 193.675 0)
@@ -7048,7 +7048,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -7057,7 +7057,7 @@
   (symbol (lib_id "Device:C") (at 54.61 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8843ac3c-6d17-4c1c-8c1c-0eb5e7d42aee)
-    (property "Reference" "C13" (at 58.42 179.07 0)
+    (property "Reference" "C6" (at 58.42 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 181.61 0)
@@ -7074,7 +7074,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C13") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -7083,7 +7083,7 @@
   (symbol (lib_id "Device:C") (at 203.2 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88d18cfb-1afd-4ada-9479-6ed8ea0795df)
-    (property "Reference" "C22" (at 207.01 26.67 0)
+    (property "Reference" "C19" (at 207.01 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 29.21 0)
@@ -7100,7 +7100,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C22") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -7109,7 +7109,7 @@
   (symbol (lib_id "power:GND") (at 153.67 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a6437f8-d2ce-4452-9722-6dfc039f5768)
-    (property "Reference" "#PWR040" (at 153.67 195.58 0)
+    (property "Reference" "#PWR036" (at 153.67 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 193.675 0)
@@ -7125,7 +7125,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -7134,7 +7134,7 @@
   (symbol (lib_id "power:GND") (at 252.73 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a74853d-0bf5-4f6e-b7cb-38c74da02102)
-    (property "Reference" "#PWR069" (at 252.73 165.1 0)
+    (property "Reference" "#PWR058" (at 252.73 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 163.195 0)
@@ -7150,7 +7150,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -7159,7 +7159,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8adcdf1e-5559-4732-a8c3-b11fce092d8c)
-    (property "Reference" "#PWR035" (at 153.67 114.3 0)
+    (property "Reference" "#PWR031" (at 153.67 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 106.045 0)
@@ -7175,7 +7175,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7184,7 +7184,7 @@
   (symbol (lib_id "power:GND") (at 203.2 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bc773c3-25b3-4382-8043-b6517288d20a)
-    (property "Reference" "#PWR068" (at 203.2 165.1 0)
+    (property "Reference" "#PWR046" (at 203.2 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 163.195 0)
@@ -7200,7 +7200,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -7209,7 +7209,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c472942-048d-4222-bfb9-9d4f9873831a)
-    (property "Reference" "#PWR047" (at 203.2 53.34 0)
+    (property "Reference" "#PWR039" (at 203.2 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 45.085 0)
@@ -7225,7 +7225,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -7234,7 +7234,7 @@
   (symbol (lib_id "Device:C") (at 54.61 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e11372c-6b49-4ebf-aa26-3bcda39bef94)
-    (property "Reference" "C4" (at 58.42 26.67 0)
+    (property "Reference" "C1" (at 58.42 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 29.21 0)
@@ -7251,7 +7251,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -7260,7 +7260,7 @@
   (symbol (lib_id "Device:C") (at 104.14 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e46fff8-7a7b-465f-a8e6-9d68144c0720)
-    (property "Reference" "C11" (at 107.95 118.11 0)
+    (property "Reference" "C10" (at 107.95 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 120.65 0)
@@ -7277,7 +7277,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -7286,7 +7286,7 @@
   (symbol (lib_id "Device:C") (at 104.14 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92164ea1-39ce-4285-bdf7-de3e64850729)
-    (property "Reference" "C10" (at 107.95 87.63 0)
+    (property "Reference" "C9" (at 107.95 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 90.17 0)
@@ -7303,7 +7303,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -7312,7 +7312,7 @@
   (symbol (lib_id "Device:C") (at 203.2 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 928d6581-b9ff-4a96-9259-c2884e902677)
-    (property "Reference" "C31" (at 207.01 118.11 0)
+    (property "Reference" "C22" (at 207.01 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 120.65 0)
@@ -7329,7 +7329,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C31") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -7338,7 +7338,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 172.72 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92a2bd77-09e2-4fbf-99e2-d656b6de01ed)
-    (property "Reference" "D25" (at 175.26 80.01 0)
+    (property "Reference" "D21" (at 175.26 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 173.99 83.82 0)
@@ -7359,7 +7359,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D25") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -7423,7 +7423,7 @@
   (symbol (lib_id "power:+3.3V") (at 266.7 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a4aa49d-ac7d-498d-9786-7cd0affcee34)
-    (property "Reference" "#PWR083" (at 266.7 218.44 0)
+    (property "Reference" "#PWR095" (at 266.7 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 266.7 209.55 0)
@@ -7439,7 +7439,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -7448,7 +7448,7 @@
   (symbol (lib_id "power:GND") (at 302.26 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bea6d78-5228-4663-bccc-03b0504b5f76)
-    (property "Reference" "#PWR052" (at 302.26 73.66 0)
+    (property "Reference" "#PWR064" (at 302.26 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 71.755 0)
@@ -7464,7 +7464,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -7473,7 +7473,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 172.72 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d1c0f6e-3327-4803-897d-2825bdc16fca)
-    (property "Reference" "D31" (at 175.26 140.97 0)
+    (property "Reference" "D23" (at 175.26 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 173.99 144.78 0)
@@ -7494,7 +7494,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D31") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -7503,7 +7503,7 @@
   (symbol (lib_id "power:GND") (at 153.67 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6d39d1e-dd9c-4910-b62e-37e4ff8bd990)
-    (property "Reference" "#PWR036" (at 153.67 134.62 0)
+    (property "Reference" "#PWR032" (at 153.67 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 132.715 0)
@@ -7519,7 +7519,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -7528,7 +7528,7 @@
   (symbol (lib_id "power:GND") (at 302.26 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a73465b3-cd9b-4a8d-9b89-0623cb4d6c3a)
-    (property "Reference" "#PWR046" (at 302.26 43.18 0)
+    (property "Reference" "#PWR062" (at 302.26 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 41.275 0)
@@ -7544,7 +7544,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -7553,7 +7553,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a79d8494-c143-45c3-9261-e4ff631ed0f2)
-    (property "Reference" "#PWR097" (at 351.79 144.78 0)
+    (property "Reference" "#PWR081" (at 351.79 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 136.525 0)
@@ -7569,7 +7569,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -7578,7 +7578,7 @@
   (symbol (lib_id "power:+5V") (at 104.14 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8a19c3f-8d18-4480-adc0-8f5d2bf39e42)
-    (property "Reference" "#PWR027" (at 104.14 175.26 0)
+    (property "Reference" "#PWR023" (at 104.14 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 104.14 167.005 0)
@@ -7594,7 +7594,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -7603,7 +7603,7 @@
   (symbol (lib_id "power:GND") (at 54.61 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9613572-f819-4e16-a08d-0c4ca61f63be)
-    (property "Reference" "#PWR024" (at 54.61 195.58 0)
+    (property "Reference" "#PWR012" (at 54.61 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 193.675 0)
@@ -7619,7 +7619,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -7628,7 +7628,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9a96afb-c316-41ca-a13d-e0b455c38f73)
-    (property "Reference" "#PWR029" (at 153.67 22.86 0)
+    (property "Reference" "#PWR025" (at 153.67 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 14.605 0)
@@ -7644,7 +7644,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -7653,7 +7653,7 @@
   (symbol (lib_id "power:+5V") (at 351.79 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab62e7e5-287b-46b1-8043-481ec6bd27c4)
-    (property "Reference" "#PWR093" (at 351.79 83.82 0)
+    (property "Reference" "#PWR077" (at 351.79 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 351.79 75.565 0)
@@ -7669,7 +7669,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -7678,7 +7678,7 @@
   (symbol (lib_id "power:+5V") (at 231.14 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac299a5d-eceb-4af1-890d-a1b89b544294)
-    (property "Reference" "#PWR081" (at 231.14 218.44 0)
+    (property "Reference" "#PWR093" (at 231.14 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 231.14 209.55 0)
@@ -7694,7 +7694,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -7703,7 +7703,7 @@
   (symbol (lib_id "Device:C") (at 49.53 248.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad26fed4-ac43-47a7-ad29-a74ec1462640)
-    (property "Reference" "C3" (at 45.72 247.65 0)
+    (property "Reference" "C45" (at 45.72 247.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 45.72 250.19 0)
@@ -7720,7 +7720,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C3") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -7729,7 +7729,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae618dbf-fd41-498a-91cc-ded427334a93)
-    (property "Reference" "D26" (at 224.79 80.01 0)
+    (property "Reference" "D27" (at 224.79 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 83.82 0)
@@ -7750,7 +7750,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D26") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -7789,7 +7789,7 @@
   (symbol (lib_id "power:GND") (at 203.2 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af4ccdb1-01bc-478e-9ac0-a917e2f21c69)
-    (property "Reference" "#PWR074" (at 203.2 195.58 0)
+    (property "Reference" "#PWR048" (at 203.2 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 193.675 0)
@@ -7805,7 +7805,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -7814,7 +7814,7 @@
   (symbol (lib_id "power:GND") (at 203.2 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b203ee7a-98f6-41df-bb0c-dbbb2104e1ba)
-    (property "Reference" "#PWR062" (at 203.2 134.62 0)
+    (property "Reference" "#PWR044" (at 203.2 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 132.715 0)
@@ -7830,7 +7830,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -7839,7 +7839,7 @@
   (symbol (lib_id "power:GND") (at 351.79 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b432e744-097e-4555-9479-437f80e2787e)
-    (property "Reference" "#PWR0100" (at 351.79 195.58 0)
+    (property "Reference" "#PWR084" (at 351.79 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 193.675 0)
@@ -7855,7 +7855,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -7864,7 +7864,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 73.66 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b64e4bbf-46b3-451b-8d4f-081b19b67a32)
-    (property "Reference" "D8" (at 76.2 110.49 0)
+    (property "Reference" "D10" (at 76.2 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 74.93 114.3 0)
@@ -7885,7 +7885,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D8") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -7924,7 +7924,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 73.66 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b814b720-cb05-47f4-8328-f832dbf7c57a)
-    (property "Reference" "D7" (at 76.2 80.01 0)
+    (property "Reference" "D9" (at 76.2 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 74.93 83.82 0)
@@ -7945,7 +7945,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -7954,7 +7954,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8d18f9b-1639-4303-99cc-b24b5af315e7)
-    (property "Reference" "#PWR042" (at 252.73 22.86 0)
+    (property "Reference" "#PWR049" (at 252.73 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 14.605 0)
@@ -7970,7 +7970,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -7979,7 +7979,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba91527f-da70-41f6-a620-133d38537663)
-    (property "Reference" "#PWR055" (at 302.26 83.82 0)
+    (property "Reference" "#PWR065" (at 302.26 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 75.565 0)
@@ -7995,7 +7995,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -8044,7 +8044,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc346996-b126-4163-8bf3-3ff909b55707)
-    (property "Reference" "#PWR061" (at 302.26 114.3 0)
+    (property "Reference" "#PWR067" (at 302.26 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 106.045 0)
@@ -8060,7 +8060,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -8069,7 +8069,7 @@
   (symbol (lib_id "power:+3.3V") (at 161.29 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be70bdc8-2459-4496-ab11-a6d3e7d0ab0c)
-    (property "Reference" "#PWR080" (at 161.29 226.06 0)
+    (property "Reference" "#PWR089" (at 161.29 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 161.29 217.17 0)
@@ -8085,7 +8085,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -8123,7 +8123,7 @@
   (symbol (lib_id "Device:C") (at 104.14 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c12c80e6-2091-438d-b3b9-2c4930b6f2af)
-    (property "Reference" "C15" (at 107.95 179.07 0)
+    (property "Reference" "C12" (at 107.95 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 181.61 0)
@@ -8140,7 +8140,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C15") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -8149,7 +8149,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b011ef-d002-42bd-bb14-bdfb6b5f96fa)
-    (property "Reference" "#PWR021" (at 54.61 144.78 0)
+    (property "Reference" "#PWR09" (at 54.61 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 136.525 0)
@@ -8165,7 +8165,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -8174,7 +8174,7 @@
   (symbol (lib_id "power:GND") (at 351.79 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3a060c4-39f8-44ab-9a82-53db6b1185a8)
-    (property "Reference" "#PWR098" (at 351.79 165.1 0)
+    (property "Reference" "#PWR082" (at 351.79 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 163.195 0)
@@ -8190,7 +8190,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -8225,7 +8225,7 @@
   (symbol (lib_id "Device:C") (at 153.67 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c91cae37-d624-4bb4-808e-fb14ffc69e99)
-    (property "Reference" "C20" (at 157.48 148.59 0)
+    (property "Reference" "C17" (at 157.48 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 151.13 0)
@@ -8242,7 +8242,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C20") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -8251,7 +8251,7 @@
   (symbol (lib_id "power:GND") (at 252.73 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca0004a5-1570-41dc-bdb0-53d663bb0cfe)
-    (property "Reference" "#PWR063" (at 252.73 134.62 0)
+    (property "Reference" "#PWR056" (at 252.73 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 132.715 0)
@@ -8267,7 +8267,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -8276,7 +8276,7 @@
   (symbol (lib_id "Device:C") (at 54.61 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc5da879-8438-46e7-bd66-5d980a523b29)
-    (property "Reference" "C12" (at 58.42 148.59 0)
+    (property "Reference" "C5" (at 58.42 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 151.13 0)
@@ -8293,7 +8293,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C12") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -8302,7 +8302,7 @@
   (symbol (lib_id "Device:C") (at 153.67 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce10d0a5-746d-469a-a296-920912a11ae8)
-    (property "Reference" "C18" (at 157.48 87.63 0)
+    (property "Reference" "C15" (at 157.48 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 90.17 0)
@@ -8319,7 +8319,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C18") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -8328,7 +8328,7 @@
   (symbol (lib_id "power:GND") (at 54.61 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d03b3be8-6c12-49b0-a760-e6fca03808c5)
-    (property "Reference" "#PWR08" (at 54.61 73.66 0)
+    (property "Reference" "#PWR04" (at 54.61 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 71.755 0)
@@ -8344,7 +8344,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -8383,7 +8383,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2b3b7c1-e5a3-443e-89aa-93b40e0cd965)
-    (property "Reference" "D23" (at 224.79 49.53 0)
+    (property "Reference" "D26" (at 224.79 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 53.34 0)
@@ -8404,7 +8404,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D23") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -8413,7 +8413,7 @@
   (symbol (lib_id "Device:C") (at 302.26 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3d6c32c-f3fd-4b77-87cb-fd0ad073c13b)
-    (property "Reference" "C39" (at 306.07 179.07 0)
+    (property "Reference" "C36" (at 306.07 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 181.61 0)
@@ -8430,7 +8430,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C39") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -8439,7 +8439,7 @@
   (symbol (lib_id "Device:C") (at 302.26 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d46f3d80-8da9-4860-80a8-f85677a60c3c)
-    (property "Reference" "C33" (at 306.07 118.11 0)
+    (property "Reference" "C34" (at 306.07 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 120.65 0)
@@ -8456,7 +8456,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C33") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -8465,7 +8465,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d48dd85d-b095-4fc8-9dca-f11778a0bdd8)
-    (property "Reference" "#PWR049" (at 302.26 53.34 0)
+    (property "Reference" "#PWR063" (at 302.26 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 45.085 0)
@@ -8481,7 +8481,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -8490,7 +8490,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7726ac6-ae07-4851-b1e5-dd77b12f8336)
-    (property "Reference" "D35" (at 224.79 171.45 0)
+    (property "Reference" "D30" (at 224.79 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 175.26 0)
@@ -8511,7 +8511,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D35") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -8520,7 +8520,7 @@
   (symbol (lib_id "Device:C") (at 104.14 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7e347b1-e795-4a26-8f00-f19663263f49)
-    (property "Reference" "C14" (at 107.95 148.59 0)
+    (property "Reference" "C11" (at 107.95 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 107.95 151.13 0)
@@ -8537,7 +8537,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C14") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -8546,7 +8546,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d864164c-a72c-4d56-9491-178b9c3241d6)
-    (property "Reference" "D29" (at 224.79 110.49 0)
+    (property "Reference" "D28" (at 224.79 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 114.3 0)
@@ -8567,7 +8567,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D29") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -8576,7 +8576,7 @@
   (symbol (lib_id "Device:C") (at 302.26 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8bd9fd3-2d66-4cab-8b63-e7cef9827cc0)
-    (property "Reference" "C30" (at 306.07 87.63 0)
+    (property "Reference" "C33" (at 306.07 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 306.07 90.17 0)
@@ -8593,7 +8593,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C30") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -8602,7 +8602,7 @@
   (symbol (lib_id "power:GND") (at 153.67 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8f29b86-e290-4836-9bef-99125eb21715)
-    (property "Reference" "#PWR038" (at 153.67 165.1 0)
+    (property "Reference" "#PWR034" (at 153.67 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 163.195 0)
@@ -8618,7 +8618,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -8627,7 +8627,7 @@
   (symbol (lib_id "power:GND") (at 351.79 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dae02b89-7c9c-42eb-8e7e-f064c218bae8)
-    (property "Reference" "#PWR090" (at 351.79 43.18 0)
+    (property "Reference" "#PWR074" (at 351.79 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 41.275 0)
@@ -8643,7 +8643,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -8652,7 +8652,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db2db5c6-64bc-4b34-bfa6-6df9452d8d89)
-    (property "Reference" "#PWR033" (at 153.67 83.82 0)
+    (property "Reference" "#PWR029" (at 153.67 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 75.565 0)
@@ -8668,7 +8668,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -8677,7 +8677,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 172.72 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbb87d5a-dca4-43de-a3b6-2efee0c7be97)
-    (property "Reference" "D22" (at 175.26 49.53 0)
+    (property "Reference" "D20" (at 175.26 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 173.99 53.34 0)
@@ -8698,7 +8698,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D22") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -8707,7 +8707,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcfcff77-2c37-4945-8fb8-34115b1e6e30)
-    (property "Reference" "#PWR072" (at 252.73 175.26 0)
+    (property "Reference" "#PWR059" (at 252.73 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 167.005 0)
@@ -8723,7 +8723,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -8732,7 +8732,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 222.25 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de77b349-917a-454c-ae96-5089356ebd35)
-    (property "Reference" "D32" (at 224.79 140.97 0)
+    (property "Reference" "D29" (at 224.79 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 223.52 144.78 0)
@@ -8753,7 +8753,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D32") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -8792,7 +8792,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28c86cc-2756-4ebf-8674-e34ea709223b)
-    (property "Reference" "#PWR037" (at 153.67 144.78 0)
+    (property "Reference" "#PWR033" (at 153.67 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 136.525 0)
@@ -8808,7 +8808,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -8817,7 +8817,7 @@
   (symbol (lib_id "power:GND") (at 54.61 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3bd0d56-efe1-47f8-a77a-c0d29e64df61)
-    (property "Reference" "#PWR010" (at 54.61 104.14 0)
+    (property "Reference" "#PWR06" (at 54.61 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 102.235 0)
@@ -8833,7 +8833,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -8842,7 +8842,7 @@
   (symbol (lib_id "Device:C") (at 351.79 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4a7758e-1ed7-4ec9-aee6-57fe2ac0524d)
-    (property "Reference" "C41" (at 355.6 57.15 0)
+    (property "Reference" "C38" (at 355.6 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 355.6 59.69 0)
@@ -8859,7 +8859,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C41") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -8868,7 +8868,7 @@
   (symbol (lib_id "power:+5V") (at 153.67 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5e7ca5e-8980-40af-a144-47e68f98fe25)
-    (property "Reference" "#PWR039" (at 153.67 175.26 0)
+    (property "Reference" "#PWR035" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.67 167.005 0)
@@ -8884,7 +8884,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -8980,7 +8980,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 172.72 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8418da0-b31e-49a1-977b-76e5edc212e1)
-    (property "Reference" "D28" (at 175.26 110.49 0)
+    (property "Reference" "D22" (at 175.26 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 173.99 114.3 0)
@@ -9001,7 +9001,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D28") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -9010,7 +9010,7 @@
   (symbol (lib_id "power:+5V") (at 302.26 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e89e79af-24a1-4e81-80fb-8e88e6c711c5)
-    (property "Reference" "#PWR043" (at 302.26 22.86 0)
+    (property "Reference" "#PWR061" (at 302.26 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 302.26 14.605 0)
@@ -9026,7 +9026,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -9035,7 +9035,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec7d87c2-b0d9-4545-ae23-0424a5e78685)
-    (property "Reference" "#PWR053" (at 203.2 83.82 0)
+    (property "Reference" "#PWR041" (at 203.2 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 75.565 0)
@@ -9051,7 +9051,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -9060,7 +9060,7 @@
   (symbol (lib_id "power:GND") (at 252.73 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed3cfdca-c0d2-4a1e-bf07-a3622e80865e)
-    (property "Reference" "#PWR045" (at 252.73 43.18 0)
+    (property "Reference" "#PWR050" (at 252.73 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 41.275 0)
@@ -9076,7 +9076,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -9110,7 +9110,7 @@
   (symbol (lib_id "Device:C") (at 203.2 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef99a50b-2189-4881-ac2b-a5ea1cecdc0b)
-    (property "Reference" "C34" (at 207.01 148.59 0)
+    (property "Reference" "C23" (at 207.01 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 207.01 151.13 0)
@@ -9127,7 +9127,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C34") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -9136,7 +9136,7 @@
   (symbol (lib_id "power:+12V") (at 185.42 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0c37a28-cf63-4fc6-a47b-6fd51913e0f2)
-    (property "Reference" "#PWR079" (at 185.42 226.06 0)
+    (property "Reference" "#PWR091" (at 185.42 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 185.42 217.17 0)
@@ -9152,7 +9152,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -9161,7 +9161,7 @@
   (symbol (lib_id "LED:IN-PI4818QAS5R5G5BPW") (at 73.66 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1d600ce-88cb-48b1-bb53-8754e672e187)
-    (property "Reference" "D6" (at 76.2 49.53 0)
+    (property "Reference" "D8" (at 76.2 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 74.93 53.34 0)
@@ -9182,7 +9182,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "D6") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -9191,7 +9191,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3d19d13-682a-4f7d-9c98-e8d39d5aa841)
-    (property "Reference" "#PWR048" (at 252.73 53.34 0)
+    (property "Reference" "#PWR051" (at 252.73 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 45.085 0)
@@ -9207,7 +9207,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -9216,7 +9216,7 @@
   (symbol (lib_id "power:GND") (at 54.61 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3e462ec-0b90-4448-93c6-26f0d40a21cb)
-    (property "Reference" "#PWR06" (at 54.61 43.18 0)
+    (property "Reference" "#PWR02" (at 54.61 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 41.275 0)
@@ -9232,7 +9232,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -9241,7 +9241,7 @@
   (symbol (lib_id "power:GND") (at 252.73 189.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f78a20fe-9373-4a61-8e12-a44b12c05589)
-    (property "Reference" "#PWR075" (at 252.73 195.58 0)
+    (property "Reference" "#PWR060" (at 252.73 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 193.675 0)
@@ -9257,7 +9257,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -9266,7 +9266,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9dd7329-4c83-4e10-8e7f-f3d74d3c6fa4)
-    (property "Reference" "#PWR023" (at 54.61 175.26 0)
+    (property "Reference" "#PWR011" (at 54.61 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 167.005 0)
@@ -9282,7 +9282,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -9291,7 +9291,7 @@
   (symbol (lib_id "Device:C") (at 153.67 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcc12afd-6c04-4b53-8053-b0f8453d6ba9)
-    (property "Reference" "C19" (at 157.48 118.11 0)
+    (property "Reference" "C16" (at 157.48 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 157.48 120.65 0)
@@ -9308,7 +9308,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "C19") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -9317,7 +9317,7 @@
   (symbol (lib_id "power:GND") (at 351.79 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcd3bf3f-aa04-447b-8e67-0fb500eca8e9)
-    (property "Reference" "#PWR096" (at 351.79 134.62 0)
+    (property "Reference" "#PWR080" (at 351.79 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 132.715 0)
@@ -9333,7 +9333,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -9372,7 +9372,7 @@
   (symbol (lib_id "power:+5V") (at 104.14 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffd01c99-437a-4450-9bc1-014d85cc78fe)
-    (property "Reference" "#PWR025" (at 104.14 144.78 0)
+    (property "Reference" "#PWR021" (at 104.14 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 104.14 136.525 0)
@@ -9388,7 +9388,7 @@
     (instances
       (project "CAN_LIGHT"
         (path "/d4f25219-6cef-4e47-aded-6c41d03d24e2"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
