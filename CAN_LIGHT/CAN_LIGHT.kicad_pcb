@@ -896,22 +896,22 @@
 
   (footprint "IN-PI4818QAS5R5G5BPW:INPI4818QAS5R5G5BPW" (layer "F.Cu")
     (tstamp 225b0ac8-2736-47dd-8cff-0df38064e350)
-    (at 81.445879 107.339996 140)
+    (at 81.5848 107.121392 150)
     (descr "IN-PI4818QAS5R5G5BPW-5")
     (tags "LED")
     (property "Sheetfile" "CAN_LIGHT.kicad_sch")
     (property "Sheetname" "")
     (path "/4b7fa1fd-cab8-4f75-9176-e7f5bd7cd4da")
     (attr smd)
-    (fp_text reference "D42" (at 0 -0.1 140) (layer "F.SilkS")
+    (fp_text reference "D42" (at 0 -0.1 150) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp e34ed27a-7b01-48b4-82db-472707ef8782)
     )
-    (fp_text value "~" (at 0 -0.1 140) (layer "F.SilkS") hide
+    (fp_text value "~" (at 0 -0.1 150) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 543255f3-374b-4a5c-80dc-dde9af5b2dfa)
     )
-    (fp_text user "${REFERENCE}" (at 0 -0.1 140) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -0.1 150) (layer "F.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 49a065db-5186-4f61-99f3-c2f9bddc5a44)
     )
@@ -939,20 +939,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 69af2f69-3b0b-439d-ac1a-5403b3324082))
     (fp_line (start 2.4 0.8) (end -2.4 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b65f42c9-9eed-434e-ab14-989b97bc95ba))
-    (pad "1" smd rect (at -2 -0.3 140) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -2 -0.3 150) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "W-VDD") (pintype "power_in") (tstamp 23c1d316-c599-479f-ac9e-2c3bd5f0c966))
-    (pad "2" smd rect (at -1.25 -0.3 140) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at -1.25 -0.3 150) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 82 "unconnected-(D42-NC-Pad2)") (pinfunction "NC") (pintype "passive") (tstamp d9b0010a-5540-40c3-a8c4-de1b7b49114c))
-    (pad "3" smd rect (at -0.525 -0.3 140) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -0.525 -0.3 150) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 83 "unconnected-(D42-DOUT-Pad3)") (pinfunction "DOUT") (pintype "output") (tstamp dda0ead4-feb0-40e3-b899-3a8afd5b9255))
-    (pad "4" smd rect (at 0.35 -0.3 140) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at 0.35 -0.3 150) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 4f632f3a-9f52-4ad6-8b9e-dbc64513d7a1))
-    (pad "5" smd rect (at 1.25 -0.3 140) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "5" smd rect (at 1.25 -0.3 150) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 96747397-c286-437b-8711-49fcf7aa151f))
-    (pad "6" smd rect (at 2 -0.3 140) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "6" smd rect (at 2 -0.3 150) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 89 "Net-(D41-DOUT)") (pinfunction "DIN") (pintype "input") (tstamp 53003ecc-cc21-4b2a-891a-a7c7a0c9d53c))
-    (pad "7" smd rect (at 2.45 -0.45 230) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7218afa1-094c-44e3-9065-a66dbd24c553))
-    (pad "8" smd rect (at -2.45 -0.45 230) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 17b8abff-db2d-4525-ab67-4f4107d4b544))
+    (pad "7" smd rect (at 2.45 -0.45 240) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7218afa1-094c-44e3-9065-a66dbd24c553))
+    (pad "8" smd rect (at -2.45 -0.45 240) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 17b8abff-db2d-4525-ab67-4f4107d4b544))
     (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_IN-PI4818QAS5R5G5BPW/IN-PI4818QAS5R5G5BPW/3D/IN-PI4818QAS5R5G5BPW.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2072,22 +2072,22 @@
 
   (footprint "IN-PI4818QAS5R5G5BPW:INPI4818QAS5R5G5BPW" (layer "F.Cu")
     (tstamp 4e8e22ba-4aca-453f-9eb7-62b376662ee7)
-    (at 65.918502 92.919695 162)
+    (at 72.8472 92.964 100.25)
     (descr "IN-PI4818QAS5R5G5BPW-5")
     (tags "LED")
     (property "Sheetfile" "CAN_LIGHT.kicad_sch")
     (property "Sheetname" "")
     (path "/6f11ded3-48a3-415e-b7f9-36798fc0c78a")
     (attr smd)
-    (fp_text reference "D40" (at 0 -0.1 162) (layer "F.SilkS")
+    (fp_text reference "D40" (at 0 -0.1 100.25) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp af1b553b-0548-4b95-9ed0-99446e743053)
     )
-    (fp_text value "~" (at 0 -0.1 162) (layer "F.SilkS") hide
+    (fp_text value "~" (at 0 -0.1 100.25) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 183a5d3f-4172-4baf-981d-d1330ac8e1e8)
     )
-    (fp_text user "${REFERENCE}" (at 0 -0.1 162) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -0.1 100.25) (layer "F.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp d0dfea11-565b-4c1c-af8e-1f103599f5e0)
     )
@@ -2115,20 +2115,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9c86731f-4365-492c-b422-cc7c362aea3c))
     (fp_line (start 2.4 0.8) (end -2.4 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ab2671ba-4707-4653-a654-1c5e6f322ef1))
-    (pad "1" smd rect (at -2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -2 -0.3 100.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "W-VDD") (pintype "power_in") (tstamp dd3f959f-ac85-4f6b-8557-01d1832a822c))
-    (pad "2" smd rect (at -1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at -1.25 -0.3 100.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 85 "unconnected-(D40-NC-Pad2)") (pinfunction "NC") (pintype "passive") (tstamp a1044eb6-aa77-4e15-b020-4ffeac821802))
-    (pad "3" smd rect (at -0.525 -0.3 162) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -0.525 -0.3 100.25) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 80 "Net-(D40-DOUT)") (pinfunction "DOUT") (pintype "output") (tstamp e99e5a5d-84dd-43df-bc49-ddbb3753fe14))
-    (pad "4" smd rect (at 0.35 -0.3 162) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at 0.35 -0.3 100.25) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp a9794a92-c4c6-4556-a23c-1cadd8ce804d))
-    (pad "5" smd rect (at 1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "5" smd rect (at 1.25 -0.3 100.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 692b0ef8-852b-4479-9fb7-a192f7d1b6b2))
-    (pad "6" smd rect (at 2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "6" smd rect (at 2 -0.3 100.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 90 "Net-(D39-DOUT)") (pinfunction "DIN") (pintype "input") (tstamp d4c36b4c-14eb-454f-9ae6-e403b5c5516f))
-    (pad "7" smd rect (at 2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5a086afc-ceec-4d54-b300-d4c690610f68))
-    (pad "8" smd rect (at -2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c516720-68df-48e1-aee6-58609376269f))
+    (pad "7" smd rect (at 2.45 -0.45 190.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5a086afc-ceec-4d54-b300-d4c690610f68))
+    (pad "8" smd rect (at -2.45 -0.45 190.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c516720-68df-48e1-aee6-58609376269f))
     (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_IN-PI4818QAS5R5G5BPW/IN-PI4818QAS5R5G5BPW/3D/IN-PI4818QAS5R5G5BPW.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3621,22 +3621,22 @@
 
   (footprint "IN-PI4818QAS5R5G5BPW:INPI4818QAS5R5G5BPW" (layer "F.Cu")
     (tstamp 9b7f1fe4-b1f1-425b-9c74-832728bea1c2)
-    (at 70.036602 101.861631 160)
+    (at 75.603205 101.070197 119.25)
     (descr "IN-PI4818QAS5R5G5BPW-5")
     (tags "LED")
     (property "Sheetfile" "CAN_LIGHT.kicad_sch")
     (property "Sheetname" "")
     (path "/d0b9e7f4-ea07-40e8-ad87-35ca7718a79c")
     (attr smd)
-    (fp_text reference "D41" (at 0 -0.1 160) (layer "F.SilkS")
+    (fp_text reference "D41" (at 0 -0.1 119.25) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 1d9fcb8d-3f42-4e97-8b0f-2a379e8df104)
     )
-    (fp_text value "~" (at 0 -0.1 160) (layer "F.SilkS") hide
+    (fp_text value "~" (at 0 -0.1 119.25) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 642bb019-abff-4ff5-b62b-048a272311d6)
     )
-    (fp_text user "${REFERENCE}" (at 0 -0.1 160) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -0.1 119.25) (layer "F.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 602b4759-ca4e-4c82-9e5f-2c1e9fe81387)
     )
@@ -3664,20 +3664,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 08257373-41d9-4ec6-9a65-a6ce8c9fb22c))
     (fp_line (start 2.4 0.8) (end -2.4 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f1a1801c-e7b8-49d9-b4e1-c011bb1223ba))
-    (pad "1" smd rect (at -2 -0.3 160) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -2 -0.3 119.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "W-VDD") (pintype "power_in") (tstamp 1028668d-5ccc-4f3a-a431-8c45ea966504))
-    (pad "2" smd rect (at -1.25 -0.3 160) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at -1.25 -0.3 119.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 84 "unconnected-(D41-NC-Pad2)") (pinfunction "NC") (pintype "passive") (tstamp 3231b18e-d8da-428d-980f-0b72a325e938))
-    (pad "3" smd rect (at -0.525 -0.3 160) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -0.525 -0.3 119.25) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 89 "Net-(D41-DOUT)") (pinfunction "DOUT") (pintype "output") (tstamp 805a8ad9-f5aa-44bc-8f62-44f2fdd53ef6))
-    (pad "4" smd rect (at 0.35 -0.3 160) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at 0.35 -0.3 119.25) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 9c71c373-e9f8-4cb4-960e-5089ef894640))
-    (pad "5" smd rect (at 1.25 -0.3 160) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "5" smd rect (at 1.25 -0.3 119.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 048a79aa-2503-4db6-81c7-017683a8a0c5))
-    (pad "6" smd rect (at 2 -0.3 160) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "6" smd rect (at 2 -0.3 119.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 80 "Net-(D40-DOUT)") (pinfunction "DIN") (pintype "input") (tstamp 8d388f5c-07ec-47b3-ab25-d142bf3bf532))
-    (pad "7" smd rect (at 2.45 -0.45 250) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0da497dc-76cc-49a4-a378-a4d01c45ae1f))
-    (pad "8" smd rect (at -2.45 -0.45 250) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ebfbc2a-2adb-4ca9-8aa9-8433753b5f28))
+    (pad "7" smd rect (at 2.45 -0.45 209.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0da497dc-76cc-49a4-a378-a4d01c45ae1f))
+    (pad "8" smd rect (at -2.45 -0.45 209.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ebfbc2a-2adb-4ca9-8aa9-8433753b5f28))
     (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_IN-PI4818QAS5R5G5BPW/IN-PI4818QAS5R5G5BPW/3D/IN-PI4818QAS5R5G5BPW.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5040,22 +5040,22 @@
 
   (footprint "IN-PI4818QAS5R5G5BPW:INPI4818QAS5R5G5BPW" (layer "F.Cu")
     (tstamp e4059b80-0811-46cb-b994-a15de18e44b4)
-    (at 68.204502 73.361695 162)
+    (at 73.406 75.8698 76.25)
     (descr "IN-PI4818QAS5R5G5BPW-5")
     (tags "LED")
     (property "Sheetfile" "CAN_LIGHT.kicad_sch")
     (property "Sheetname" "")
     (path "/fe9f073b-f70c-4cf7-bb99-c2da17dab793")
     (attr smd)
-    (fp_text reference "D38" (at 0 -0.1 162) (layer "F.SilkS")
+    (fp_text reference "D38" (at 0 -0.1 76.25) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 630372f7-f939-4529-8efa-75b930cce9db)
     )
-    (fp_text value "~" (at 0 -0.1 162) (layer "F.SilkS") hide
+    (fp_text value "~" (at 0 -0.1 76.25) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp a2382a97-08d3-4f6a-b1c3-c3e188151fb2)
     )
-    (fp_text user "${REFERENCE}" (at 0 -0.1 162) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -0.1 76.25) (layer "F.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 1d06bb2d-892f-4f7e-993e-680133594e23)
     )
@@ -5083,20 +5083,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fbe3fe1f-1971-4c6b-b936-d712de7a9cf3))
     (fp_line (start 2.4 0.8) (end -2.4 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5fa383d4-7c4a-4a69-a4ec-f06dd5fa93ae))
-    (pad "1" smd rect (at -2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -2 -0.3 76.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "W-VDD") (pintype "power_in") (tstamp e6c55b95-acab-47c3-8233-655c7a989bd2))
-    (pad "2" smd rect (at -1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at -1.25 -0.3 76.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 87 "unconnected-(D38-NC-Pad2)") (pinfunction "NC") (pintype "passive") (tstamp b7e0365b-1b47-42f2-a9e0-f6eb88c23ded))
-    (pad "3" smd rect (at -0.525 -0.3 162) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -0.525 -0.3 76.25) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 91 "Net-(D38-DOUT)") (pinfunction "DOUT") (pintype "output") (tstamp fae747cf-9de2-4c68-9387-240cc07a317c))
-    (pad "4" smd rect (at 0.35 -0.3 162) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at 0.35 -0.3 76.25) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 9c74a32c-4ae6-4b0f-9665-b87c9421c4ec))
-    (pad "5" smd rect (at 1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "5" smd rect (at 1.25 -0.3 76.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 5d6aa4d3-68c1-4b2e-85e0-7250adac5cbc))
-    (pad "6" smd rect (at 2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "6" smd rect (at 2 -0.3 76.25) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 92 "Net-(D37-DOUT)") (pinfunction "DIN") (pintype "input") (tstamp 9af06475-c0a2-45b4-81b8-756bc2a8f2fe))
-    (pad "7" smd rect (at 2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 126d8d07-5d87-49c3-86a0-f8cab98d6652))
-    (pad "8" smd rect (at -2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 125362a3-1ae7-4169-8e9b-2f5bf321e5dd))
+    (pad "7" smd rect (at 2.45 -0.45 166.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 126d8d07-5d87-49c3-86a0-f8cab98d6652))
+    (pad "8" smd rect (at -2.45 -0.45 166.25) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 125362a3-1ae7-4169-8e9b-2f5bf321e5dd))
     (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_IN-PI4818QAS5R5G5BPW/IN-PI4818QAS5R5G5BPW/3D/IN-PI4818QAS5R5G5BPW.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5736,22 +5736,22 @@
 
   (footprint "IN-PI4818QAS5R5G5BPW:INPI4818QAS5R5G5BPW" (layer "F.Cu")
     (tstamp fbff2acb-136b-4543-969f-a8a6dda67833)
-    (at 67.2084 83.9724 162)
+    (at 72.2122 84.4042 88.4)
     (descr "IN-PI4818QAS5R5G5BPW-5")
     (tags "LED")
     (property "Sheetfile" "CAN_LIGHT.kicad_sch")
     (property "Sheetname" "")
     (path "/646ae4d9-484f-4ff1-bec3-ce0d5fd6659f")
     (attr smd)
-    (fp_text reference "D39" (at 0 -0.1 162) (layer "F.SilkS")
+    (fp_text reference "D39" (at 0 -0.1 88.4) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp d2d54ef2-4b9f-4723-933d-e7c1fd69a7e4)
     )
-    (fp_text value "~" (at 0 -0.1 162) (layer "F.SilkS") hide
+    (fp_text value "~" (at 0 -0.1 88.4) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 574e5dbf-c06d-4d03-8fd4-2fd60e81d57f)
     )
-    (fp_text user "${REFERENCE}" (at 0 -0.1 162) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -0.1 88.4) (layer "F.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 4c9665ae-b3c6-4bef-8da4-d2e7dd4a65f2)
     )
@@ -5779,20 +5779,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 10637993-e963-4023-96ef-94a75430438d))
     (fp_line (start 2.4 0.8) (end -2.4 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 547001f5-6e90-4d4a-b487-52fe8ee089d8))
-    (pad "1" smd rect (at -2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -2 -0.3 88.4) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "W-VDD") (pintype "power_in") (tstamp 42979e2f-bc35-45ee-b7c3-8633decf76f8))
-    (pad "2" smd rect (at -1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at -1.25 -0.3 88.4) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 86 "unconnected-(D39-NC-Pad2)") (pinfunction "NC") (pintype "passive") (tstamp 0476a189-224e-4cc6-8274-4391835a09d4))
-    (pad "3" smd rect (at -0.525 -0.3 162) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at -0.525 -0.3 88.4) (size 0.35 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 90 "Net-(D39-DOUT)") (pinfunction "DOUT") (pintype "output") (tstamp 08c92952-daac-4360-85b6-733b8b80f80e))
-    (pad "4" smd rect (at 0.35 -0.3 162) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at 0.35 -0.3 88.4) (size 0.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 77945358-5ebb-47dd-a583-112442ee5465))
-    (pad "5" smd rect (at 1.25 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "5" smd rect (at 1.25 -0.3 88.4) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 65d13648-5bac-4ba5-81ca-46e7c9941108))
-    (pad "6" smd rect (at 2 -0.3 162) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "6" smd rect (at 2 -0.3 88.4) (size 0.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 91 "Net-(D38-DOUT)") (pinfunction "DIN") (pintype "input") (tstamp 0ac0af5b-f71d-4891-9a21-94624e1b7a56))
-    (pad "7" smd rect (at 2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af908115-af85-46a8-a651-e5e2fcc862dc))
-    (pad "8" smd rect (at -2.45 -0.45 252) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp efd8d9cb-932e-4242-9ec6-6e6904266507))
+    (pad "7" smd rect (at 2.45 -0.45 178.4) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af908115-af85-46a8-a651-e5e2fcc862dc))
+    (pad "8" smd rect (at -2.45 -0.45 178.4) (size 0.4 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp efd8d9cb-932e-4242-9ec6-6e6904266507))
     (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_IN-PI4818QAS5R5G5BPW/IN-PI4818QAS5R5G5BPW/3D/IN-PI4818QAS5R5G5BPW.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6802,82 +6802,6 @@
       fe366c29-96c2-4c9c-b145-98d59f83932c
       fe8ce23a-e6d2-4b64-85a9-d5e7f38212e5
       fec533ae-5fb0-4023-80ec-10a2f6f8b6d4
-    )
-  )
-  (group "" (id 3fccb6e0-0741-42b4-b000-c27566907988)
-    (members
-      01d50221-bbf5-48c6-af68-d95b17fe0a30
-      0647572f-d333-406d-8319-65f03e51b26b
-      0659d8e9-ab1a-4d2d-bb69-052fe9f2b6a9
-      06a7dcaf-a8e5-4620-8e93-8af0d800e8fc
-      0704da1e-bb7f-44f3-be13-fbc3ae1e508c
-      0831007c-2b47-4a5c-966e-de69c99150ac
-      0af9a3de-90a6-452f-b3ec-a28ddace9038
-      0b00975b-ad67-4652-b44c-168497a35a4a
-      0e9b02a1-3159-4145-a838-4b0a1e40d780
-      0eb58bd8-a6bc-43e8-b1a6-f545547fb7ef
-      1087aaf9-f391-43fa-b4f5-472d4f02ef19
-      10c15279-b2de-4cc6-87b6-2479d6c77332
-      137ee664-121e-45ae-8db2-261432811b25
-      16611276-0966-4537-9993-ec08a029d18a
-      1a141552-e286-440b-93a7-26d4bb76d053
-      27145850-9085-4682-8fe0-4bb4d754fa57
-      28a80a22-4290-4a21-b5ce-2e645fa1a271
-      2d0103ba-f425-4b6f-b476-839d33e5c62e
-      30436a08-2c37-4a5e-84f1-15f776a441f2
-      35378537-5522-463f-bc5e-1c025239e88a
-      3dc4a7c7-b23e-4ae5-a2c1-b0f35ba9b787
-      3e5b0f8e-7e91-4d98-b2de-ccd41193c856
-      4420759d-aee5-4bde-b210-bf4919ac9818
-      442183c6-3cd1-445b-a5cf-77de77ec8c6d
-      46da779b-9dc4-4404-9a8e-973962b330a9
-      4f626207-0559-4130-8367-1cbc88b244b4
-      544090ad-7eb6-4898-aa6f-09bb00e9c4f7
-      552582ad-d021-4688-bf28-4712691d2ae2
-      56daa0d0-6f77-4425-a934-783a3696a884
-      572eae46-0a5a-4289-9e74-3e9de9525b93
-      5d3a6f92-1c1c-4f66-8037-0f84adb41133
-      5db44cfb-f644-4b7a-a05d-a7f06ccf43e9
-      5f3b5cbb-0439-4839-ae45-673ee039c9e4
-      630c086b-e972-4090-b5e6-2fb9ef96e492
-      655a859e-f0de-4316-8b87-164222376b51
-      66bf7509-55ec-4114-a200-de0fa12ba24e
-      684244ab-7ea3-4c06-b767-13a347c515cc
-      72c584a7-4fd8-4775-8dff-c069cb04d82f
-      744647d2-28b9-4a57-9f29-7ef789d15d30
-      74754b8a-1f23-4842-9b1c-425af9d88cf4
-      76679a0b-f7c3-400a-8e28-b5c30cb66360
-      7b3814ca-c709-40cc-9b85-8d40eb4653db
-      7f7c18de-1aa4-4138-bff6-8cb51cfe2254
-      8d585848-2c74-422f-86dd-f758b81611c4
-      8d8c103b-afa8-4cbe-9b50-cecfcf9bfd2e
-      9107fa1b-967f-468f-955f-ccdaa7ccb307
-      91bd6917-0517-48fa-a3e9-c304bda42fb7
-      99126eae-1518-4474-a552-2b8efadba532
-      9f566632-7952-4a04-952d-b0d13b49ce9d
-      a3334353-ec0e-4a0b-b565-cd81e6219e3c
-      a4de7394-51e2-4245-b1ef-7885f9626118
-      a7191b84-1ad2-491e-a9fb-09b92d3c5cfb
-      aaaa2508-2d27-4fac-af9b-7143c8828b7d
-      ad6cff23-b15c-4f48-89a8-1058637644da
-      ae772ac2-4a03-4cfd-a75d-5d27f2dc4dcf
-      b140eb85-2164-4039-96b9-cca066eda852
-      b400eddb-02bd-4ee7-a0d8-417e6246433f
-      b7005eeb-f25c-4be3-97cc-b448c18cbdd6
-      bb118984-b773-4af2-8098-6c7559a4dfac
-      bd08c7dc-015b-443b-8bb2-787d616df41c
-      cb0ffa99-95d9-4b35-b335-1ea3ab1bb566
-      cff0286f-1010-41c5-83e8-558289b59a2c
-      d35560cc-d21c-4eea-b3f8-9671fe93b17e
-      d7f23422-e0d4-441f-955e-96052d2c437e
-      e092fba0-707f-490f-af51-15bbffb0d79f
-      e2c2d8fe-6acc-4152-867d-cd2cf7e9dcd0
-      e301981b-ef20-4d5d-b4dd-cdab8f645e21
-      ebf31a6f-d48a-4651-aa46-d0c70195c9d1
-      ee74e116-32d8-4923-90fd-e4ed1c4157cf
-      f20814bf-3345-4fda-a1ba-9d130ae8d4ad
-      f39bb0a4-edd9-4580-a13a-f4e3b5f227f5
-      fdc537bc-60c9-41fb-8db9-ac8012879525
     )
   )
 )
