@@ -350,6 +350,11 @@
       (net 30 "Net-(U4-NC{slash}FB)") (pinfunction "NC/FB") (pintype "unspecified") (tstamp 83e34afa-e66e-4f06-9bfa-c54cbc4bb6df))
     (pad "5" smd rect (at 1.1176 -0.950001 90) (size 1.4732 0.5588) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+3.3V") (pinfunction "OUT") (pintype "output") (tstamp 4410e0f2-9696-49f8-b5f0-1568e918f83a))
+    (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/TPS76333DBVR/DBV0005A.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -1534,7 +1539,7 @@
       (net 37 "Net-(J1-SWCLK)") (pinfunction "PA20_/_A6_/_SWCLK") (pintype "passive") (tstamp af853a15-7d5b-41ae-b821-54cfe1376ff7))
     (pad "8" smd rect (at 1.25 -0.975 90) (size 0.45 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 20 "Net-(U1-PA24_{slash}_A3{slash}UART_RX)") (pinfunction "PA24_/_A3/UART_RX") (pintype "passive") (tstamp 58986ead-97fa-413d-8662-874217ba3365))
-    (model "MSPM0C1103SDDFR.stp"
+    (model "/Users/Lucas/Documents/Engineering/KiCAD Parts Libraries/LIB_MSPM0C1103SDDFR/MSPM0C1103SDDFR/3D/MSPM0C1103SDDFR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
